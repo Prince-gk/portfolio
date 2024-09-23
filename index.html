@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, I'm Prince Karanja. I'm a Web develper.</p>
+            <!-- Social Media Icons -->
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="hhttps://github.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <!-- Divided Layout for Photo and Content -->
+            <div class="about-photo">
+                <img src="prince.jpg" alt="Your Photo" class="profile-pic">
+            </div>
+            <div class="about-content">
+                <h2 class="about">About Me</h2>
+                <p>
+                    I am a highly motivated and dedicated web developer with a robust background in full-stack development, with a particular focus on building user-centric, responsive websites and applications. My journey began with a passion for technology and problem-solving, which eventually led me to study Software Engineering at Moringa School. There, I gained extensive hands-on experience in coding and software development methodologies, equipping me with the skills to solve real-world problems through code.
+                    <br><br>
+                    Prior to joining Moringa, I completed my high school education at Chogoria Boys High School, where I first discovered my love for technology. Over the years, I have worked on a wide variety of projects ranging from small business websites to complex e-commerce platforms and dynamic web applications, honing my skills in both front-end and back-end development.
+                    <br><br>
+                    My technical skillset includes proficiency in HTML, CSS, and JavaScript, alongside modern libraries and frameworks such as React, Vue.js, and Angular for front-end development. On the back end, I am experienced with Node.js, Express, and MongoDB, enabling me to build full-stack applications with ease. I’ve also implemented RESTful APIs, integrated third-party services, and designed scalable systems that can handle high-traffic applications.
+                    <br><br>
+                    Beyond coding, I am passionate about delivering seamless user experiences. I collaborate closely with designers to ensure that the projects I work on not only function well but are also aesthetically pleasing and intuitive for users. I thrive on building solutions that strike the perfect balance between functionality and design.
+                    <br><br>
+                    In addition to my technical work, I regularly contribute to open-source projects and mentor aspiring developers, guiding them in improving their skills and building confidence in the tech space. My long-term goal is to continue pushing the boundaries of web development, creating innovative applications that solve everyday problems.
+                </p>
+
+                <!-- Button for CV -->
+                <a href="path-to-your-cv.pdf" class="cv-button" download>Download My CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+
+            <div class="project-item">
+                <h3>Project 1: Personal Blog Platform</h3>
+                <p>
+                    This project is a comprehensive blogging platform that I built using the MERN stack (MongoDB, Express, React, Node.js). The platform allows users to create accounts, write, and manage blog posts, and engage with other users through comments and likes. The back-end includes secure user authentication, and the entire application is designed to be highly scalable.
+                    <br><br>
+                    <strong>Key Features:</strong>
+                    <ul>
+                        <li>Custom content management system (CMS) for easy post creation</li>
+                        <li>Responsive design with a focus on clean typography</li>
+                        <li>User authentication using JWT and OAuth (Google)</li>
+                        <li>Real-time comment and like functionality using WebSockets</li>
+                    </ul>
+                    This project highlights my ability to create full-stack applications with a focus on delivering engaging user experiences.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 2: E-commerce Website</h3>
+                <p>
+                    This e-commerce platform was developed for a local business, providing them with a complete online shopping experience. Built using React for the front-end and Node.js for the back-end, the site allows customers to browse products, add items to their cart, and securely check out using Stripe for payment processing.
+                    <br><br>
+                    <strong>Key Features:</strong>
+                    <ul>
+                        <li>Dynamic product catalog with filtering by category, price, and availability</li>
+                        <li>Shopping cart with persistent data stored in local storage</li>
+                        <li>Admin panel for product management (CRUD operations)</li>
+                        <li>Secure checkout process with Stripe integration</li>
+                        <li>Real-time inventory management to track stock levels</li>
+                    </ul>
+                    The challenge in this project was to ensure the platform remained performant, even as the product catalog grew, which required careful optimization of the back-end database queries and caching.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 3: Task Manager App</h3>
+                <p>
+                    This project was built to help users manage their personal tasks and projects efficiently. Using React for the front-end and Firebase for the back-end, the app allows users to create tasks, set deadlines, and prioritize their work with a simple drag-and-drop interface.
+                    <br><br>
+                    <strong>Key Features:</strong>
+                    <ul>
+                        <li>Real-time updates and synchronization using Firebase Firestore</li>
+                        <li>Task categorization and deadline reminders</li>
+                        <li>Drag-and-drop functionality for task prioritization</li>
+                        <li>Responsive design optimized for both desktop and mobile use</li>
+                        <li>Custom notifications for upcoming tasks and deadlines</li>
+                    </ul>
+                    This project taught me the importance of optimizing for performance, especially when dealing with real-time updates and user data synchronization across devices.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 4: Portfolio Website</h3>
+                <p>
+                    A modern portfolio website built to showcase my work as a developer. The website is fully responsive, with smooth scrolling and interactive elements designed to engage visitors. The project was built using HTML, CSS, and vanilla JavaScript, with additional features such as dynamic content loading for faster page transitions.
+                    <br><br>
+                    <strong>Key Features:</strong>
+                    <ul>
+                        <li>Responsive layout optimized for all devices</li>
+                        <li>Dynamic content loading for improved performance</li>
+                        <li>Interactive animations using CSS and JavaScript</li>
+                        <li>SEO optimization for better visibility on search engines</li>
+                        <li>Links to GitHub and LinkedIn for easy access to my work</li>
+                    </ul>
+                    This project helped solidify my understanding of front-end development principles and best practices, especially when it comes to performance optimization and responsive design.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 5: Weather Forecasting App</h3>
+                <p>
+                    This is a weather forecasting application built using React and the OpenWeatherMap API. The app fetches real-time weather data for any location in the world and displays it in a user-friendly interface, including temperature, humidity, wind speed, and more.
+                    <br><br>
+                    <strong>Key Features:</strong>
+                    <ul>
+                        <li>Real-time weather data fetched from OpenWeatherMap API</li>
+                        <li>Interactive search functionality with auto-suggestions</li>
+                        <li>Geolocation-based weather data for current location</li>
+                        <li>5-day weather forecast displayed graphically</li>
+                    </ul>
+                    This project provided valuable experience in API integration, data handling, and UI/UX design for data-heavy applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prince Karanja. All rights reserved.</p>
+    </footer>
